@@ -12,12 +12,14 @@ export default class About extends React.Component {
 						Jaipur Rajasthan
 						<a href="mailto:suyogpipliwal@gmail.com">suyogpipliwal@gmail.com</a>
 					</div>
-					<p class="lead mb-5">
-						Some introduction here!!!!
-					</p>
+						<p class="lead mb-5">
+							I  Suyog Pipliwal, a graduate from IIIT Guwahati in 2019 in Computer Science and Engineering. 
+							My area of work includes back-end and front-end development using Javascript for both web and mobile environments. 
+							My area of interest includes System design, Machine learning, and Competitive programming.
+						</p>
 					<div class="social-icons">
-						<a class="social-icon" href="https://www.linkedin.com/in/suyog-pipliwal-a97868125/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-						<a class="social-icon" href="https://github.com/suyog-pipliwaal" target="_blank"><i class="fab fa-github"></i></a>
+						<a class="social-icon" href="https://www.linkedin.com/in/suyog-pipliwal-a97868125/" target="_blank" rel="noreferrer"><i class="fab fa-linkedin-in"></i></a>
+						<a class="social-icon" href="https://github.com/suyog-pipliwaal" target="_blank" rel="noreferrer"><i class="fab fa-github"></i></a>
 					</div>
 				</div>
 			</section>

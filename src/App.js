@@ -7,13 +7,14 @@ import Awards from './components/awards';
 import Education from './components/education';
 import Experience from './components/experience';
 import Intersets from './components/interset';
+import Projects from './components/project';
 
 class App extends React.Component {
 	render () {
 		return (
 			<HashRouter>
 			<nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-				<a class="navbar-brand js-scroll-trigger" href="#page-top">
+				<a class="navbar-brand" href="/">
 					<span class="d-block d-lg-none">Suyog Pipliwal</span>
 					<span class="d-none d-lg-block">
 						<img class="img-fluid img-profile rounded-circle mx-auto mb-2" src={profileImage} alt="profile"/>
@@ -37,7 +38,8 @@ class App extends React.Component {
 				<Route path="/education" component={Education}/>
 				<Route path="/experience" component={Experience}/>	
 				<Route path="/skills" component={Skills}/>
-				<Route path="/intersets" component={Intersets}/>	
+				<Route path="/intersets" component={Intersets}/>
+				<Route path="/projects" component={Projects}/>
 			</div>
 		</HashRouter>
 		);
